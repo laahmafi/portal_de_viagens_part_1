@@ -12,20 +12,23 @@ body {
     font-size: x-large;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25%;
 }
 
 #LetraBrancaSubTitulo {
     font-size: small;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 5mm;
+    margin-left: 10%;
+    float: right;
 }
 
 #LetraBrancaMenu {
     font-size: small;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 5mm;
+    margin-left: 10%;
+    float: left;
 }
 
 #LetraBrancaCorpo {
@@ -49,6 +52,7 @@ body {
     color: rgb(45, 62, 80);
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30%;
     margin-top: 10%;
     
 }
@@ -58,6 +62,8 @@ body {
     border-bottom: solid rgb(196, 196, 196) ;
     font-size: 14px;
     padding: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 5px;
 }
 
@@ -71,9 +77,14 @@ body {
 #BtnConsultar{
     background-color: rgb(27, 188, 155);
     font-size: 12px;
-    width: 20mm;
-    height: 10mm;
-    border-radius: 8px; 
-    margin-top: 2mm;
+    padding: 5px 5px;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-right: 60%;
+    margin-top: 0px;
+    
 }
 
+#imagem{
+    margin-left: 35%;
+}
